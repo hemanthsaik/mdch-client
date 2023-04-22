@@ -102,7 +102,10 @@ const ManageWeb = ({ data }) => {
         </div>
       </div>
       <div className="text-center ">
-        <button className="mt-5 bg-blue-700 py-2 px" onClick={sendPatchRequest}>
+        <button
+          className="mt-5 bg-blue-700 py-2 px rounded text-white"
+          onClick={sendPatchRequest}
+        >
           submit
         </button>
       </div>
